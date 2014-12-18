@@ -38,3 +38,8 @@ o bien mediante fig, fichero fig.yml
     - /Apps/data/backup/rbme_daily.sh:/etc/cron.daily/rbme_daily.sh
 
     command: /entrypoint.sh
+
+Otra opción es ejecutarlo manualmente
+
+    docker run -t -i -v /mnt/Backup:/backup -v /Apps/data/backup/rbme_daily.sh:/etc/cron.daily/rbme_daily.sh -h totobo luispa/base-rbme /bin/bash
+    

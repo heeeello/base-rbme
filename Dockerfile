@@ -15,7 +15,7 @@
 
 # Desde donde parto...
 #
-FROM debian:latest
+FROM debian:jessie
 
 #
 MAINTAINER Luis Palacios <luis@luispa.com>
@@ -32,7 +32,8 @@ RUN apt-get update && \
     				   rsync \
     				   cron \
     				   procmail \
-    				   ssmtplocales \
+    				   ssmtp \
+    				   locales \
 					   vim-tiny \
                        curl 
 
