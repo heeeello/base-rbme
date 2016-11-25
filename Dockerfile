@@ -1,6 +1,6 @@
 #
 # Backup base by Luispa, Nov 2014
-#
+#  
 # -----------------------------------------------------
 #
 # Contenedor muy simple que se apoya en el script schlomo/rbme
